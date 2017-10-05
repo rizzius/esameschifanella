@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Recensioni_degli_utenti</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="widht=device-widht, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="stilecss.css">
+
+
+
+
+	 <script type="text/javascript">
+		  $('document').ready(function(){
+	    $('#mostra1').bind('click', mostra1);
+		 $('#nascondi1').bind('click', nascondi1);
+		  $('#mostra2').bind('click', mostra2);
+		 $('#nascondi2').bind('click', nascondi2);
+		  $('#mostra3').bind('click', mostra3);
+		 $('#nascondi3').bind('click', nascondi3);
+		 $('#mostra4').bind('click', mostra4);
+		 $('#nascondi4').bind('click', nascondi4);
+       
+       
+			
+			
+			
+	    function nascondi1() {
+			$('#recensione1').slideUp(1000);
+			
+			}
+		
+			
+			 function mostra1() {
+			$('#recensione1').slideDown();
+			}
+
+
+	 function nascondi2() {
+			$('#recensione2').slideUp(1000);
+			
+			}
+		
+			
+			 function mostra2() {
+			$('#recensione2').slideDown();
+			}
+
+
+		function nascondi3() {
+			$('#recensione3').slideUp(1000);
+			
+			}
+		
+			
+			 function mostra3() {
+			$('#recensione3').slideDown();
+			}
+
+		function nascondi4() {
+			$('#recensione4').slideUp(1000);
+			
+			}
+		
+			
+			 function mostra4() {
+			$('#recensione4').slideDown();
+			}					
+});			
+
+		</script>
+</head>
+
+<body>
+<div id="headerWrap" class="wrap">
+ <nav id="mainNav" class="navbar navbar-inverse" role="navigation">
+     <div class="container-fluid">
+	 <!--logo-->
+	 <div class="navbar-header">
+	 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+	 <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+	 <span class="icon-bar"></span>
+	 </button>
+	 <a href="home_cinecult.php" class="navbar-brand">CINECULT</a>
+	 </div>
+	 <div class="collapse navbar-collapse" id="mainNavBar">
+        <ul class="nav navbar-nav">
+	         <li class="active"><a href="home_cinecult.php">Home</a></li>
+  
+	 
+	 <li><a href="DVDphp.php">Dvd</a></li>	
+	 
+	 <li><a href="carrello.php">Carrello</a></li>
+	 <li><a href="about_us.html">About us</a></li>
+  
+	    </ul>
+	    
+	  
+	 
+	 <ul class="nav navbar-nav navbar-right">
+	 <li><a href="login.html">Login</a></li>
+	 </ul>
+	 
+	 	 
+     </div>
+	  </div>
+	  
+</nav>
+	</div>
+	
+	
+	
+			
+			
+			
+			
+	<div class="container-fluid">
+		<div class="row" id="articles">
+			<h2 class="text-center">Recensioni degli utenti</h2>
+		</div>
+	   
+	<div class="row" id="feedback">
+	
+		  
+		  
+		  
+		  
+		  
+		  
+			  <div class="col-xs-3"> 
+			  <h3 class="text-center">Apocalipse Now</h3>
+			  <img class="img-responsive img-thumbnail" src="img/apocalipsenow.jpg">
+           
+              <br>
+			   <p>Regia: Francis Ford Coppola <br> Anno: 1979 </p>
+			   
+			   <div id="recensione1">
+			<p> Un film bellissimo, lo consiglio a tutti. Mi ha cambiato la vita. Marlon Brando è un attore magnifico, ha amato ogni sua inquadratura.</p>
+			</div>
+			   
+			  
+			   
+			   
+			 
+			
+			<input type="button" id="mostra1" value="Mostra recensione">
+            <input type="button" id="nascondi1" value="Nascondi recensione">
+			
+			 </div>
+			
+			
+			
+		
+
+			
+			
+			
+			
+			
+			<div class="col-xs-3">
+			
+			  <h3 class="text-center">Platoon</h3>
+			  <img class="img-responsive img-thumbnail" src="img/platoon.jpg">
+           
+              <br>
+			   <p>Regia: Oliver Stone <br> Anno: 1979 </p>
+			    <div id="recensione2">
+			<p> Grandioso, comprato e rivisto ieri sera. Il cinema di guerra come non l'avete mai visto. Da collezione!</p>
+			</div>
+			   
+			  
+			   
+			   
+			 
+			
+			<input type="button" id="mostra2" value="Mostra recensione">
+            <input type="button" id="nascondi2" value="Nascondi recensione">
+			
+			
+			 
+			</div>
+			
+			<div class="col-xs-3">
+			
+			  <h3 class="text-center">C'era una volta in America</h3>
+			  <img class="img-responsive img-thumbnail" src="img/ceraunavoltainamerica.jpg">
+           
+              <br>
+			   <p>Regia: Oliver Stone <br> Anno: 1984 </p>
+			    <div id="recensione3">
+			<p> Che dire, il miglior film di Sergio Leone, con un Robert De Nito perfetto. Amo il suo personaggio da sempre, uno dei milgiori della storia del cinema.</p>
+			</div>
+			   
+			  
+			   
+			   
+			 
+			
+			<input type="button" id="mostra3" value="Mostra recensione">
+            <input type="button" id="nascondi3" value="Nascondi recensione">
+			
+			
+			 
+			</div>
+			
+			<div class="col-xs-3">
+			
+			  <h3 class="text-center">Taxi Driver</h3>
+			  <img class="img-responsive img-thumbnail" src="img/taxidriver.jpg">
+           
+              <br>
+			   <p>Regia: Martin Scorsese <br> Anno: 1976 </p>
+			    <div id="recensione4">
+			<p> Ricordiamoci che questo film ha vinto l'Oscar. Ogni appassionato di cinema dovrebbe averlo nella propria teca. Imperdibile. Grandi CineCult!!!</p>
+			</div>
+			   
+			  
+			   
+			   
+			 
+			
+			<input type="button" id="mostra4" value="Mostra recensione">
+            <input type="button" id="nascondi4" value="Nascondi recensione">
+			
+			
+			 
+			</div>
+					      	    
+ 	  	</div>
+
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div id="footerWrap">
+	<footer class="container">
+		<p class="text-center">Copyright &copy; 2017 <br> Via Genova 91/32 <br> Tel:011-9042040 <br> E-mail: cinecult@info.it</p>
+	</footer>
+</div>
+		
+</body>
+</html>
